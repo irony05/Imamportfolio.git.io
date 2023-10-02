@@ -1,0 +1,367 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ff5733;
+  }
+  
+  .detel {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .detel h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .detel span {
+    color: #ff5733;
+  }
+  
+  .detel p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+.detel a {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 30px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .detel a:hover {
+    background-color: #333;
+  }
+  
+  .images {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(45deg, #122d34, #6dd5ed);
+
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  .images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .images img:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .detel {
+      padding: 20px;
+    }
+  
+    .detel h1 {
+      font-size: 36px;
+    }
+  
+    .detel p {
+      font-size: 18px;
+    }
+  
+    .detel a {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  
+    .images {
+      padding: 20px;
+    }
+  }
+  /* Enhanced Styles About */
+.header-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #ff5733;
+}
+
+.section-description {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+/* Enhanced Styles Contact */
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 18px;
+    background-color: #ff5733;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff3d00;
+}
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #0074e4; /* Adjust the color to your preference */
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #00c6ff; /* Change the color on hover */
+}
+/* Enhanced Styles Service */
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.service {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 0 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a stronger shadow */
+}
+
+.service h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.service p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Enhanced Styles Projects */
+
+/* Project Page Styles */
+
+/* Style for individual project sections */
+.container {
+  background-color: #530c0c;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #111010;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.project {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.project h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.project .h3 {
+  font-size: 20px;
+  color: #ff5733;
+  margin-bottom: 15px;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Responsive design for project sections */
+@media (max-width: 768px) {
+  .project {
+      margin: 10px;
+      padding: 10px;
+  }
+  
+  .project h2 {
+      font-size: 20px;
+  }
+  
+  .project .h3 {
+      font-size: 18px;
+  }
+  
+  .project img {
+      max-width: 100%;
+  }
+  
+  .project p {
+      font-size: 14px;
+  }
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+
+
+
+
